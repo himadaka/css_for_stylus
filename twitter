@@ -1,0 +1,69 @@
+  
+/*全体の色をグレーに*/
+.AppContainer{
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 0.2s linear;
+
+}
+
+/*左メニュー */
+.ProfileAvatar,
+.ProfileSidebar{
+    display:none;
+}
+
+/*ヘッダ */
+.global-nav, 
+.ProfileCanopy
+{
+    display:none;
+}
+
+/*ツイート　ツイートと返信　メディア*/
+.ProfileHeading{
+    display:none;
+}
+
+/*timeline全体の位置を左に詰める*/
+.stream{
+    margin-top:-50px;
+    margin-left:-400px;
+
+}
+
+
+/*画像の高さ*/
+.AdaptiveMedia,
+.card2{
+    width: 64px;
+    height: 64px;
+}
+
+/*ハンドル*/
+.fullname{font-weight: lighter
+    
+}
+/*ユーザーネーム*/
+.username{
+    display:none;
+}
+
+/*コメント、リツイート、いいねを隠す*/
+.ProfileTweet-action--reply,
+.ProfileTweet-action--retweet,
+.ProfileTweet-action--favorite
+{
+    
+    display:none;
+}
+/*隠した分を詰める*/
+.content{
+    margin-bottom:-30px;
+ }
+
+.tweet{
+    border-top:dashed 1px #d4dbd2;/*点線*/
+}
